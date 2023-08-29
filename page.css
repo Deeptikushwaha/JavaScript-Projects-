@@ -67,6 +67,7 @@ header .more button{
     height: 92px;
     background-color: white;
     box-shadow: 0 1px 1px 0 rgb(0 0 0 / 16%);
+    position: fixed;
 }
 .navbar{
     width: 1174px;
@@ -138,7 +139,7 @@ header .more button{
 }
 /*section 2*/
 .top{
-    margin-top: 16px;
+    margin-top: 68px;
     background-image: url(https://images.assetsdelivery.com/compings_v2/gstockstudio/gstockstudio1606/gstockstudio160600088.jpg);
     background: no repeat;
     min-height: 15pc;
