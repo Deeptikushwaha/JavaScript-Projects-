@@ -10,11 +10,12 @@ body{
     /*background: linear-gradient(45deg,#FDB062,#E047B4);*/
 }
 :root{
-    --primary-color1: #FDB062;
+    --primary-color1: #557A95;
+    --color2:#7395AE;
 }
 /*header*/
 header{
-    background: linear-gradient(45deg,var(--primary-color1),#E047B4);
+    background: linear-gradient(45deg,var(--primary-color1),var(--color2);
     height: 56px;
 }
 header .contact{
@@ -56,7 +57,7 @@ header .more button{
     font-size: 16px;
     font-weight: 400;
     background: none;
-    background: linear-gradient(180deg,#eb54af,#f86fc1);
+    background: linear-gradient(180deg,var(--primary-color1),var(--color2));
     border: none;
     border-radius: 13px;
     cursor: pointer;
@@ -163,7 +164,7 @@ header .more button{
     padding: 21px;
 }
 .intro{
-    border-left: 4px solid #da53a8;
+    border-left: 4px solid #386d93;
     border-radius: 2px;
     margin-left: 17pc;
 }
@@ -183,7 +184,7 @@ hr{
     margin-left: 8px;
 }
 .btn1{
-    background: linear-gradient(45deg,#FDB062,#E047B4);
+    background: linear-gradient(45deg,var(--primary-color1),var(--color2));
     border: none;
     border-radius: 14px;
     padding: 10px;
@@ -205,7 +206,7 @@ hr{
     box-shadow: 0 1px 1px 0 rgb(0 0 0 / 23%);
 }
 .btn1:hover{
-    background: #E047B4;
+    background: #226696;
 }
 .btn2:hover{
     background-color: white;
@@ -270,7 +271,7 @@ hr{
 }
 #lines{
     margin: 15px 0;
-    background: linear-gradient(45deg,#FDB062,#E047B4);
+    background: linear-gradient(45deg,var(--primary-color1),var(--color2));
     width: 14%;
     height: 6.1px;
     border-radius: 6px;
@@ -282,8 +283,8 @@ hr{
     margin-left: 193px;
 }
 #wah{
-    height: 19px;
-    border: 2px solid #da53a8;
+    height: 1px;
+    border: 2px solid #557A95;
 }
 .bottom2{
     background-color: #f1f3f6;
@@ -323,7 +324,7 @@ hr{
     
 }
 .image p .ue{
-    background: linear-gradient(45deg,var(--primary-color1),#f215b3);
+    background: linear-gradient(45deg,var(--primary-color1),var(--color2));
     border-radius: 50%;
     padding: 11px;
 
