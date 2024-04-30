@@ -6,7 +6,7 @@ let arr=Array.from(buttons);
 arr.forEach(button => {
     button.addEventListener('click',(e) => {
         if(e.target.innerHTML == "="){
-            try{
+            try{ 
             let result = eval(str);
             display_output.value = result;
             }
