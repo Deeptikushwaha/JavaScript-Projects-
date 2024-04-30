@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="pomodoro.css" rel="stylesheet">
+</head>
+<body>
+    <div class="section">
+    <div class="container">
+        <h1 class="title">Pomodoro Timer</h1>
+        <hr>
+        <div class="menu">
+            <button class="choose live" data-id="pomo">Pomodoro</button>
+            <button class="choose" data-id="short">Short Break</button>
+            <button class="choose" data-id="long">Long break</button>
+        </div>
+       <div class="menu-content">
+            <div class="clk live" id="pomo">
+             <p class="timer" >25:00</p>
+            </div>
+            <div class="clk" id="short">
+            <p class="timer" >5:00</p>
+           </div>
+           <div class="clk" id="long">
+            <p class="timer">15:00</p>
+          </div>
+       </div>
+        <div class="buttons">
+            <button id="start">Start</button>
+            <button id="stop">Stop</button>
+            <button id="reset">Reset</button>
+        </div>
+        <div class="last"><p>Time to Focus!</p></div>
+    </div>
+</div>
+    <script src="pomodoro.js"></script>
+</body>
+</html>
